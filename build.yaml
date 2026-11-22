@@ -34,7 +34,7 @@
 
 include:
   - board: nice_nano_v2
-    shield: sofle_dong_dongle dongle_screen
+    shield: sofle_dongle dongle_screen
     #cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000 #optional if logging is enabled
     #snippet: zmk-usb-logging #only enable for debugging
     artifact-name: dongle-screen
